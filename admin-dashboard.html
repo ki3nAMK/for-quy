@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Admin Dashboard</h1>
+        <p>Welcome, Admin! Use the query box below to manage the system:</p>
+        <div class="query-box">
+            <label for="admin-query">Enter your query:</label>
+            <textarea id="admin-query" rows="5" placeholder="Type your query here..."></textarea>
+            <button onclick="handleQuery('admin')">Submit Query</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
